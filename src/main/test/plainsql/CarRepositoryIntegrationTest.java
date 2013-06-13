@@ -32,6 +32,12 @@ public class CarRepositoryIntegrationTest {
         repository.update(String.format(sqlStatement, car.getName(), car.getNumberPlate()));
     }
 
+    public void shouldUpdateCarsInRepository()
+    {
+
+
+    }
+
     private Car createCar(String name, String numberPlate) {
         return new Car(name, numberPlate);
     }
